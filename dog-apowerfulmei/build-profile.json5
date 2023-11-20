@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\梅某彦\\.ohos\\config\\openharmony\\auto_ohos_default_dog_com.example.dog.cer",
+          "storePassword": "0000001B782E72AF51B3F95F91FCC67CEC0350AF2A1020B08D3F33B04AB24528B6E6D3DDDD6922514997B1",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B52D1B34C1B8D6888ED17A079182CBF224E8BA7A622BD1B84BD06A7EF33A757BDB4E47425101C40",
+          "profile": "C:\\Users\\梅某彦\\.ohos\\config\\openharmony\\auto_ohos_default_dog_com.example.dog.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\梅某彦\\.ohos\\config\\openharmony\\auto_ohos_default_dog_com.example.dog.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
